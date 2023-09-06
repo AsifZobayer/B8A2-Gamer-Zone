@@ -1,0 +1,245 @@
+/* ///////////work sans fonts from google fonts///////////// */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,700&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;}
+
+.btn-primary{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 48px;
+background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    border: 0;
+    padding: 10px 33px;
+}
+
+    header{
+        background: #FFF;
+padding: 30px 240px;
+}
+
+main{
+    background: #FFF;
+    padding: 30px 240px;
+}
+
+/* ////////////////NAV-PART/////////////////////// */
+    
+.nav-gamer{
+    display: flex;
+    align-items: center;
+    
+}
+
+.G-color{
+    color: #FF42A5;
+}
+.nav-img{
+    width: 86.041px;
+height: 40px;
+margin-right: 20px;
+}
+    .nav-title{
+font-size: 3rem;
+color: #0B0223;
+font-weight: 700;
+
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav>ul{
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-follow{
+        border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding-left: 10px;
+    }
+
+    nav li{
+        list-style: none;
+        margin-right: 32px;
+font-size: 1rem;
+font-weight: 500;
+
+    }
+
+    nav li a{
+        text-decoration: none;
+        color: #3C354F;
+    }
+
+    .nav-icon{
+        width: 24px;
+        height: 24px;
+        margin: 5px;
+    }
+
+
+/* //////////////////BANNER/////////////////// */
+    .banner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+    }
+    .banner-header{
+        color: #0B0223;
+text-align: center;
+font-size: 3rem;
+font-weight: 600;
+    }
+
+    .banner-para{
+        color: #534C64;
+font-size: 1.2rem;
+font-weight: 500;
+
+.banner-button{
+    width: 24px;
+height: 24px;
+margin-right: 20px;
+}
+
+    }
+    .banner-img{
+        max-width: 30%;
+        max-height: 30%;
+        padding: 30px 240px;
+    }
+
+    .banner-goat{
+        text-align: center;
+font-size: 6rem;
+font-weight: 800;
+color:#FF42A5;
+    }
+
+    .btn-secondary{
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 48px;
+    background: #4EC5F7;
+        border: 0;
+        padding: 10px 33px;
+    }
+
+    /* /////////////GAMER-PART////////////// */
+    .gamer-part{
+        display: flex;
+    }
+
+    .gamer-btn-primary{
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+        border: 0;
+        padding: 10px 33px;
+    }
+
+
+    .gamer-img{
+        width: 50rem;
+        height: 30rem;
+    }
+
+    .gamer-title{
+        color: #FF42A5;
+        text-align: right;
+font-size: 3rem;
+font-weight: 700;
+    }
+
+    .gamer-para{
+        color: #534C64;
+text-align: right;
+font-size: 1 rem;
+font-weight: 400;
+    }
+
+    .gamer-para2{
+        color: #534C64;
+text-align: right;
+font-size: 1rem;
+font-weight: 500;
+    }
+
+    .gamer-para3{
+        color: #534C64;
+text-align: right;
+font-size: 1.3rem;
+font-weight: 500;
+    }
+
+    /* ////////online-games/////////////// */
+
+    .online-games-img-part{
+        display: flex;
+        margin: 50px;
+    }
+
+
+    /* <!-- ///////////////sticker-part//////////// --> */
+
+    .sticker{
+        display: flex;
+    }
+.sticker-part{
+    display: flex;
+}
+/* /////////////////FOOTER SECTION/////////////////// */
+Footer{
+    background-color: #0B0223;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.gamer-white-color{
+    color: #FFF;
+}
+.footer-others{
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+
+}
+
+
+/* //////////////MEDIA QUERIES///////////// */
+
+/* responsive media queries */
+/* mobile devices */
+@media screen and (max-width: 425px) {
+    header {
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav>ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    main{
+        padding: 20px;
+    }
+    
+    .banner{
+        flex-direction: column;
+    }
+    .gamer-part{
+        flex-direction: column;
+    }
+}
